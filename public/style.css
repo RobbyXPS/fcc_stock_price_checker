@@ -9,24 +9,7 @@ body, html {
 .nav {
   background-color: green;
   box-shadow: 0 5px 0 darkgreen;
-}
-
-#list-container {
-  margin: 0px;
-  list-style: none;
-}
-
-#list-item {
- margin: 2vh; 
-}
-
-#list-link {
-  color: white;
-  text-transform: uppercase;
-}
-
-#list-link:hover {
-  color: orange;
+  height: 5vh;
 }
 
 .important-text {
@@ -65,20 +48,39 @@ footer {
 
 #testForm, #testForm2, #results-container {
   margin: 0vh 5vh 10vh 5vh;
+  background-color: white;
 }
 
 h3 {
   margin: 5vh !important;
 }
+
 #results-container {
   border: 1px solid #dee2e6  
 }
 
 .btn-primary {
- background-color: green !important; 
+  background-color: green !important; 
+  border: 2px solid orange !important;
+  border-radius: 25px !important;
 }
 
 .btn-primary:hover {
   color: orange !important;
   background-color: darkgreen !important; 
+}
+
+.content {
+  background-color: #eafaee;
+}
+
+h1 {
+  padding: 10vh 2vh 2vh 2vh;
+  text-align: center;
+  color: green;
+  text-shadow:
+   -1px -1px 0 darkgreen,  
+    1px -1px 0 darkgreen,
+    -1px 1px 0 darkgreen,
+     1px 1px 0 darkgreen;
 }
