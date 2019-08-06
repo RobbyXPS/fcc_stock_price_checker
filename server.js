@@ -21,8 +21,8 @@ app.use(helmet());
 app.use(helmet.contentSecurityPolicy({
   directives: {
     defaultSrc: ["'self'"],
-    styleSrc: ["'unsafe-inline'",'https://colorful-catboat.glitch.me/public/style.css'],
-    scriptSrc: ["'unsafe-inline'", 'https://code.jquery.com'],
+    styleSrc: ["'unsafe-inline'",'https://unique-drum-1.glitch.me/public/style.css', 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'],
+    scriptSrc: ["'unsafe-inline'", 'https://code.jquery.com', 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js', 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js'],
     imgSrc:["'self'", 'https://hyperdev.com/favicon-app.ico','http://glitch.com/favicon-app.ico']
   }
 }));

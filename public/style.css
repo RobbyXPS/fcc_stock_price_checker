@@ -1,0 +1,84 @@
+body, html {
+  height: 100%;
+}
+
+.content {
+  flex: 1 0 auto; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
+}
+
+.nav {
+  background-color: green;
+  box-shadow: 0 5px 0 darkgreen;
+}
+
+#list-container {
+  margin: 0px;
+  list-style: none;
+}
+
+#list-item {
+ margin: 2vh; 
+}
+
+#list-link {
+  color: white;
+  text-transform: uppercase;
+}
+
+#list-link:hover {
+  color: orange;
+}
+
+.important-text {
+  color: green;
+  font-weight: bold;
+}
+
+#footer-container {
+  margin-bottom: 0px !important;
+  padding: 5vh;
+  background-color: #f5f5f5;
+}
+
+footer {
+  flex-shrink: 0; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
+  background: #42A5F5;
+}
+
+.input-group-prepend {
+  align-items: center;
+  justify-content: center;
+}
+
+.checkbox {
+  margin: 2vh;
+}
+
+#testui {
+  text-align: center;
+}
+
+.form-control, .input-group, .input-group-prepend, .btn {
+  width: 50vw !important;
+  margin: 2vh auto 2vh auto;
+}
+
+#testForm, #testForm2, #results-container {
+  margin: 0vh 5vh 10vh 5vh;
+}
+
+h3 {
+  margin: 5vh !important;
+}
+#results-container {
+  border: 1px solid #dee2e6  
+}
+
+.btn-primary {
+ background-color: green !important; 
+}
+
+.btn-primary:hover {
+  color: orange !important;
+  background-color: darkgreen !important; 
+}
